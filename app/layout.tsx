@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
-        <main className="flex-grow flex flex-col items-center justify-center p-6 text-black  bg-radial-[at_50%_10%] from-white from-40% to-sky-200 to-100%">
+        <main className="flex-grow flex flex-col items-center justify-center p-6 text-black  bg-radial-[at_50%_10%] from-white from-40% to-slate-200 to-100%">
           {children}
         </main>
       </body>
