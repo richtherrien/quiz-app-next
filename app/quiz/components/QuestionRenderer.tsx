@@ -94,7 +94,7 @@ export default function QuestionRenderer({ question, onAnswer, questionAnswered 
 
       {question.type === 'matching' && (
         <div className="grid grid-cols-2 gap-4">
-          {question.pairs?.map(({ left, right }) => (
+          {question.pairs?.map(({ left }) => (
             <div key={left} className="flex items-center space-x-2">
               <span className="w-32">{left}</span>
               <select
